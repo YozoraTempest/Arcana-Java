@@ -1,7 +1,7 @@
 package fun.yozora.arcana.service.impl;
 
 import com.mybatisflex.spring.service.impl.ServiceImpl;
-import fun.yozora.arcana.entity.User;
+import fun.yozora.arcana.model.entity.User;
 import fun.yozora.arcana.mapper.UserMapper;
 import fun.yozora.arcana.service.UserService;
 import org.springframework.stereotype.Service;

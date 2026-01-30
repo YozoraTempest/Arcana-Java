@@ -1,4 +1,4 @@
-package fun.yozora.arcana.entity;
+package fun.yozora.arcana.model.entity;
 
 import com.mybatisflex.annotation.Column;
 import com.mybatisflex.annotation.Id;
@@ -9,6 +9,7 @@ import java.time.LocalDateTime;
 
 import java.io.Serial;
 
+import com.mybatisflex.core.keygen.KeyGenerators;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -32,8 +33,8 @@ public class User implements Serializable {
     /**
      * id
      */
-    @Id(keyType = KeyType.Auto)
-    private Long id;
+    @Id(keyType = KeyType.Generator, value = KeyGenerators.snowFlakeId)
+    private Long id;;
 
     /**
      * 账号

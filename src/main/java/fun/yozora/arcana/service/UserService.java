@@ -1,7 +1,7 @@
 package fun.yozora.arcana.service;
 
 import com.mybatisflex.core.service.IService;
-import fun.yozora.arcana.entity.User;
+import fun.yozora.arcana.model.entity.User;
 
 /**
  * 用户 服务层。

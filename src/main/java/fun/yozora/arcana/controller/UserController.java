@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.beans.factory.annotation.Autowired;
-import fun.yozora.arcana.entity.User;
+import fun.yozora.arcana.model.entity.User;
 import fun.yozora.arcana.service.UserService;
 import org.springframework.web.bind.annotation.RestController;
 import java.util.List;

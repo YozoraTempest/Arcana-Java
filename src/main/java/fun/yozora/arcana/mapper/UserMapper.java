@@ -1,7 +1,7 @@
 package fun.yozora.arcana.mapper;
 
 import com.mybatisflex.core.BaseMapper;
-import fun.yozora.arcana.entity.User;
+import fun.yozora.arcana.model.entity.User;
 
 /**
  * 用户 映射层。
