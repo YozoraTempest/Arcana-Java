@@ -1,5 +1,4 @@
 package fun.yozora.arcana.common;
 
-public class DeleteRequest
-{
+public class DeleteRequest {
 }
