@@ -3,6 +3,16 @@ package fun.yozora.arcana.common;
 import fun.yozora.arcana.exception.ErrorCode;
 
 public class ResultUtils {
+    /**
+     * 通用
+     *
+     * @param data 数据
+     * @param <T>  数据类型
+     * @return 响应
+     */
+    public static <T> BaseResponse<T> ok(T data) {
+        return new BaseResponse<>(0, data, "");
+    }
 
     /**
      * 成功
